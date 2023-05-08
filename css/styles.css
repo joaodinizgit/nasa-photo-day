@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#main-photo {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.description {
+    padding: 20px;
+}
+
+#title {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#explanation {
+    font-family: sans-serif, serif;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    line-height: 1.5;
+    text-indent: 40px;
+}
+
+#date {
+    font-size: 0.8em;
+    text-align: center;
+    font-family: sans-serif, serif;
+}
