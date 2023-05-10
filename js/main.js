@@ -12,7 +12,6 @@ async function logJSONData() {
     title.textContent = jsonData.title;
     date.textContent = jsonData.date;
     explanation.textContent = jsonData.explanation;
-    console.log(jsonData);
     
     // Check if the photo have copyright
     if (jsonData.copyright != undefined) {
