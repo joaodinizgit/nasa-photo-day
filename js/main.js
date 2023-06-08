@@ -13,7 +13,7 @@ async function logJSONData() {
     date.textContent = jsonData.date;
     explanation.textContent = jsonData.explanation;
     
-    // Check if the photo have copyright
+    // Check if the photo have copyright and show if so.
     if (jsonData.copyright != undefined) {
         const copyright = document.createElement("p");
         copyright.setAttribute("class", "copyrigth")

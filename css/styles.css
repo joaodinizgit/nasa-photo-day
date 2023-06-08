@@ -23,12 +23,8 @@ body {
 }
 
 #explanation {
-    font-size: 1.2em;
-    width: 100%;
-    max-width: 900px;
     margin: 40px auto;
     line-height: 1.5;
-    text-indent: 40px;
 }
 
 .copyrigth {
@@ -36,6 +32,5 @@ body {
 }
 
 #date {
-    font-size: 0.8em;
     text-align: center;
 }
