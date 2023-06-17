@@ -34,3 +34,13 @@ body {
 #date {
     text-align: center;
 }
+
+#video {
+    display: none;
+}
+
+iframe {
+    border: none;
+    width: 100%; /* takes precedence over the width set with the HTML width attribute */
+    aspect-ratio: 16/9;
+}
