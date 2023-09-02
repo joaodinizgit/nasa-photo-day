@@ -6,7 +6,7 @@ const date = document.getElementById("date");
 const video = document.getElementById("video");
 
 async function logJSONData() {
-    const response = await fetch("https://api.nasa.gov/planetary/apod?api_key=EUhzjha07LLtLmnzLdYkD6JV9eO8vx3IefV1SNfE");
+    const response = await fetch("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY");
     const jsonData = await response.json();
 
     // Check media type(Video or Image)
